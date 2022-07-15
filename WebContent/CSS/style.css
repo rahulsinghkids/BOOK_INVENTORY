@@ -1,0 +1,74 @@
+.lah{
+	font-size:2vw;
+	text-decoration:underline;
+	color:white; 
+}
+.bth{
+	background-color: #008CBA;
+  	color: white;
+  	padding: .3vw 2vw;
+  	text-decoration: none;
+  	font-size: 1.5vw;
+  	margin-left:.4vw
+}
+.bth:hover{
+	color:rgb(131,219,144)
+}
+.dv{
+	text-align: center;
+	margin-top:4.5vw;
+}
+.lam{
+	font-size:2.1vw;
+	color:green; 
+}
+.la{
+	font-size:1.7vw;
+}
+.btr{
+	background-color: rgb(235,127,167);
+  	border: none;
+  	color: white;
+  	padding: .3vw 2vw;
+  	text-align: center;
+  	font-size: 1.5vw;
+  	cursor: hand;
+}
+span{
+	color:red;
+	font-size:1.7vw;	
+}
+.thf{
+	font-size:1.5vw;
+}
+.tdf{
+	font-size:1.3vw;
+}
+.ta{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:3.4vw;
+	font-size:1.7vw;
+	background-color:cyan;
+}
+.tb{
+	font-size:1.7vw;
+	width:100%;
+}
+.tpa{
+	padding:1vw 1.5vw;
+}
+.dv20{
+	text-align: center;
+	margin-top:2vw;
+}
+.tar{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:3vw;
+	font-size:1.7vw;
+	border-collapse:collapse;
+	width:50%; 
+}
+
+
