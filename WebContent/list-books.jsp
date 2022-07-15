@@ -24,6 +24,7 @@ try
        <tr>
         <th class='thf'>Book Id</th><th class='thf'>Book Title</th><th class='thf'>Quantity</th>
         <th class='thf'>Price</th>
+         <th  class='thf' style='color:magenta'>Action</th>
        </tr>
       </thead>
       <tbody>
@@ -33,9 +34,33 @@ try
     	  %>
     	  <tr>
     	   <td class='tdf'><%=rst.getString(1)%></td>
+    	   
     	   <td class='tdf'><%=rst.getString(2)%></td>
-    	   <td class='tdf'><%=rst.getString(3)%></td>
+    	   <%
+    	   String q = rst.getString(3);
+    	   int qq = Integer.parseInt(q);
+    	   if(qq>0)
+    	   {%>
+    		   <td class='tdf'><%= qq%></td>
+    		   <%
+    	   }
+    	   else
+    	   {
+    		   %>
+    		   <td class='tdf'><%= "Out of stock"%></td>
+    		   <%
+    	   }
+    	   %>
+    	   
+    	   
+    	  
+    	   
     	   <td class='tdf'><%=rst.getString(4)%></td>
+    	   <td>
+    	    
+    	    <a href='delete-icon.jsp?cid=<%=rst.getString(1)%>'  class='la'>OUT |</a>
+    	    <a href='add-icon.jsp?cid=<%=rst.getString(1)%>'  class='la'>IN</a>
+    	   </td>
     	   
     	   
     	  </tr>
