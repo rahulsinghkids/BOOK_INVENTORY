@@ -1,5 +1,5 @@
 # BOOK_INVENTORY WEB APPLICATION  USING JAVA .
-CHANGE MYSQL USER="MYSQL" AND PASSWORD="12345"
+CHANGE MYSQL USER="root" AND PASSWORD="12345"
  Signup,Login system is available. You can create account and login using login details ,
  User can login with email id and password after login user redirect in store(home) page.
  In home page show all Option of inventory.
